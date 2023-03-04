@@ -9,6 +9,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 
 ## Index
 - [awesome-anbernic](#awesome-anbernic)
+  * [Disclaimer](#disclaimer)
   * [Models](#models)
     + [List of models](#list-of-models)
     + [Naming convention](#naming-convention)
@@ -22,6 +23,13 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
   * [Useful links](#useful-links)
     + [[NDS] Games playable by one screen only](#nds-games-playable-by-one-screen-only)
 
+
+## Disclaimer
+> We are not responsible for general hardware malfunctions, software, data loss, or anything else that may harm you or your devices
+
+> All software and hardware modifications are at your own risk.
+
+> All links shown are provided without warranty, and we are not affiliated in any way with any products or stores.
 
 ## Models
 ### List of models
