@@ -1,7 +1,13 @@
+![image](https://user-images.githubusercontent.com/44711271/222904252-84ba4888-779b-49f5-8229-1a0d9c9ab6f7.png)
+
 
 # awesome-anbernic
 Awesome list for Anbernic consoles, mainly focused on OSes.
 
+![image](https://user-images.githubusercontent.com/44711271/222904234-f01fb574-a42d-4b07-b5d9-48c47ea8af28.png)
+
+
+## Index
 - [awesome-anbernic](#awesome-anbernic)
   * [Models](#models)
     + [List of models](#list-of-models)
