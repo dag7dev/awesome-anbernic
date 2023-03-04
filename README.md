@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/44711271/222904252-84ba4888-779b-49f5-8229-1a0d9c9ab6f7.png)
+[![image](https://user-images.githubusercontent.com/44711271/222904252-84ba4888-779b-49f5-8229-1a0d9c9ab6f7.png)](https://github.com/dag7dev/awesome-anbernic/blob/master/README.md)
 
 
 # awesome-anbernic
