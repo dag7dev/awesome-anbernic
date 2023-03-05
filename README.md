@@ -15,6 +15,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
     + [Naming convention](#naming-convention)
   * [Tech specs](#tech-specs)
   * [OS](#os)
+  * [Frontend](#frontend)
   * [Games and homebrew](#games-and-homebrew)
     + [What to play](#what-to-play)
     + [Homebrews and games](#homebrews-and-games)
@@ -164,6 +165,8 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [Emulationstation-OGA-Theme-Gallery](https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery): Emulationstation theme gallery that links to themes that are compatible on small screen devices such as OGA, OGS, Gameforce Chi, RGB10, RGB10MAX, RK2020, RG351p/m, RG351v, and RG503.
 
 ## Useful links
+- [Retrosizer](https://retrosizer.com/) compare the size of handheld devices and see how certain systems will appear on their screens. You can drag the devices and rotate them etc. (controllers too)
+- [Google Sheet with technical specs about other consoles](https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/edit?usp=drivesdk)
 - [SNES Fastrom patches](https://docs.google.com/spreadsheets/d/1gUB4N0-tM7Ln-9ZMwkp_T7bwb4tDAMI6ciioYMxXzSk/edit#gid=0) - [more info on FastROM project](https://github.com/VitorVilela7/fastrom) 
 - [Repo of PSP settings for XX3 devices](https://gitlab.com/k-tec/rk3566-ppsspp-settings)
 - [Improved PSP emulation on supported Anbernic devices](https://www.reddit.com/r/RG353V/comments/1106acz/comment/j88op01/?utm_source=share&utm_medium=web2x&context=3) 
