@@ -23,6 +23,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
   * [Tools](#tools)
   * [Useful links](#useful-links)
     + [[NDS] Games playable by one screen only](#nds-games-playable-by-one-screen-only)
+  * [FAQ and troubleshooting](#faq-and-troubleshooting)
 
 
 ## Disclaimer
@@ -128,6 +129,11 @@ General facts found while browsing:
 | [RogueCFW](https://github.com/Ninoh-FOX/RG350-ROGUE-CFW)                                                                                                                                                        | Rogue CFW for RG350                                                                                                                                                                                                                  | ❌      | ❌             | ❌             | ❌     | ❌            | ❌     | ❌      | ❌        | ✅         | ❌                             | ❌      | ❌                    | ❌               |
 | \* in theory is compatible since the builds are for generic chipsets, not for a specific one. The official OS website doesn't however states "this OS is compatible with this console". It needs more research. |                                                                                                                                                                                                                                      |        |               |               |       |              |       |        |          |           |                               |        |                      |                 |
 
+## First steps
+* Replace included SD card with renowned brands immediately. Included SD card are generally cheap and error-prone.
+* Verify you're using the correct charging block.
+* Flash custom firmware to have more flexibility.
+
 ## Frontend
 Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [EmulationStation](https://github.com/Aloshi/EmulationStation)
@@ -145,6 +151,7 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [Gamebrew.org](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications) collaborative wiki for nds homebrew games and ports
 
 ## Hardware mod
+- [Arrow fix - d-pad fix - Youtube](https://www.youtube.com/watch?v=-vl3qyifYJM)
 - [RG350] [3D Printable Anbernic RG350 abxy buttons](https://www.thingiverse.com/thing:4000064)
 - [RG350] [3D Printable Anbernic RG350 stick](https://www.thingiverse.com/thing:3963163)
 - [RG350] [Screen 350M on RG350](https://retrogamecorps.com/2020/09/16/guide-install-the-rg350m-screen-on-your-rg350/)
@@ -240,3 +247,33 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 -   Yoshi's Island DS
 -   Yugioh 5d's games
 
+## FAQ and troubleshooting
+* Refund policy
+	* [Ambernic, from their homepage](https://anbernic.com/pages/refund-policy): 
+		15-Day Refund Policy - Undamaaed products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
+	* Everyone else: check their policy on their website
+
+* D-pad doesn't work / dpad works bad.
+	* [Youtube tutorial - electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM)
+
+* Saving doesn't seem to work
+	* Replace your SD Card with a reputable brand. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
+
+* Battery upgrade / batteries / where battery compatible with...
+	1) Check the specs of the target battery match with the original one (not considering mAh)
+	2) Check their connectors
+	3) buy
+
+* Single or dual sd card setup?
+	* As long as you just wanna play, you're fine with just one OS and don't have the need of having a lot of large games, you don't need to have a dual SD card setup. Make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
+
+* Shell replacement / custom shell
+	* Currently ANBERNIC doesn't sell separate shells for their console.
+
+* [JELOS] Where gamelist.xml of custom game collections are saved in JELOS?
+	* `/storage/.emulationstation/collections/`
+	* Samba share path: `\config\emulationstation\collections`
+
+* [Adam CFW] [NES color palette] I was playing a game on the NES emulator and noticed I hit some button combo accidentally and it changed the color display. Any idea how to change it back to normal?
+
+	* L2+dpad left/right will allow you to scroll through all the color pallete options. There are actually some really cool options here. [(source)](https://www.reddit.com/r/RG350/comments/11j7oyd/adam_image_nes_color_display/)
