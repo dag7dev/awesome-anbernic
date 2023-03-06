@@ -276,7 +276,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 	* [Youtube tutorial - electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM)
 
 * Saving doesn't seem to work
-	* Replace your SD Card with a reputable brand. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
+	* **Replace your SD Card with a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
 
 * Battery upgrade / batteries / where battery compatible with...
 	1) Check the specs of the target battery match with the original one (not considering mAh)
@@ -287,7 +287,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 	* As long as you just wanna play, you're fine with just one OS and don't have the need of having a lot of large games, you don't need to have a dual SD card setup. Make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
 
 * Shell replacement / custom shell
-	* Currently ANBERNIC doesn't sell separate shells for their console.
+	* Currently ANBERNIC **doesn't sell** separate shells for their console.
 
 * [JELOS] Where gamelist.xml of custom game collections are saved in JELOS?
 	* `/storage/.emulationstation/collections/`
