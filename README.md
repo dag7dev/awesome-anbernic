@@ -15,6 +15,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
     + [Naming convention](#naming-convention)
   * [Tech specs](#tech-specs)
   * [OS](#os)
+  * [First steps](#first-steps)
   * [Frontend](#frontend)
   * [Games and homebrew](#games-and-homebrew)
     + [What to play](#what-to-play)
@@ -136,8 +137,10 @@ General facts found while browsing:
 
 ## Frontend
 Here's a list of non-exhaustive frontend that you can use with your Anbernic:
-- [EmulationStation](https://github.com/Aloshi/EmulationStation)
-- [SimpleMenu](https://github.com/fgl82/simplemenu/releases)
+- [EmulationStation](https://github.com/Aloshi/EmulationStation): A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
+- [Android][Launchbox](https://www.launchbox-app.com/): box-art-based games database and launcher for DOSBox, emulators, arcade cabinets, and PC Games
+- [Android][Daijishou](https://github.com/magneticchen/Daijishou): Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
+- [Opendingux] [SimpleMenu](https://github.com/fgl82/simplemenu/releases):  Simple menu launcher for the new Bittboy, Pocket Go, RetroFW and OpenDingux devices
 
 ## Games and homebrew
 ### What to play
