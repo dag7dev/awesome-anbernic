@@ -186,6 +186,7 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 
 
 # Hardware
+
 ## Hardware mod
 - [Arrow fix - d-pad fix - Youtube](https://www.youtube.com/watch?v=-vl3qyifYJM)
 - [RG350] [3D Printable Anbernic RG350 abxy buttons](https://www.thingiverse.com/thing:4000064)
@@ -198,7 +199,6 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [RG350] [RG351] [Grip remover](https://youtu.be/5URkOzxSaRE)
 - [RG353] [Custom skin overlay](https://www.etsy.com/ca/listing/1333542850/anbernic-rg353v-custom-skinoverlay)
 - [RG353] [Better shoulder buttons](https://www.etsy.com/ca/listing/1353958841/better-shoulder-buttons-for-rg353v)
-
 - Misc for ANBERNIC consoles (generic sellers)
 	- [SakuraRetroModding](https://www.etsy.com/ca/shop/SakuraRetroModding)
 	- [JP Only] [Various-booth](https://various-booth.booth.pm/)
