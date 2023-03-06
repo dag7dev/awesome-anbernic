@@ -82,7 +82,7 @@ where
   - V vertical
   - S single os
 
-RG552 and RG505 are some of Anbernic consoles that doesn't follow in some case these "rules".
+RG552 and RG505 are some of Anbernic consoles that don't follow in some case these naming conventions.
 
 ## Tech specs
 
@@ -107,7 +107,12 @@ RG552 and RG505 are some of Anbernic consoles that doesn't follow in some case t
 | RG35xx               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | PowerVR SGX544MP quad-core | 256MB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 165g   | 2100mAh      | $89.99      |
 | WIN600               | AMD Athlon Silver 3020e (1.2Ghz) or AMD Athlon Silver 3050e (1.4Ghz) | AMD Radeon RX Vega 3       | 8GB   | 1280 x 720  | 5.94-inches (touch)      | 16:9         | Win10 - SteamOS - Linux | 490g   | 4500mAh \* 2 | $300 - $475 |
 |                      |                                                                      |                            |       |             |                          |              |                           |        |              |             |
-| Historical Purposes  |                                                                      |                            |       |             |                          |              |                           |        |              |             |
+
+
+**Historical purpose**
+
+| Model                | Processor                                                            | GPU                        | RAM   | Resolution  | Screen Size              | Aspect Ratio | Stock OS                  | Weight | Battery      | Price       |
+| -------------------- | -------------------------------------------------------------------- | -------------------------- | ----- | ----------- | ------------------------ | ------------ | ------------------------- | ------ | ------------ | ----------- |
 | RG300                | Ingenic JZ4760B (1GHz, Dual-core)                                    | ?                          | 128MB | 960 x 480   | 3-inches                 | 2:1          | OpenDingux                | 350g   | 1800mAh      | $50.00      |
 | RG300X               | Ingenic JZ4770 (?GHz, Dual-core)                                     | Vivante GC860              | 512MB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | OpenDingux                | 255g   | 2500mAh      | $79.99      |
 | RetroGame RS-97 Plus | Ingenic JZ4760 (528MHz - 600MHz)                                     | \-                         | 128MB | 320 x 480   | 3-inches                 | 4:3          | OpenDingux                | 133g   | 1800mAh      |             |
@@ -141,8 +146,8 @@ In case you decide to both output on HDMI screen and charge at the same time, pr
 General facts found while browsing:
 
 - Nintendo DS and Nintendo 64 emulation works best on Android.
-- ArkOS is considered as more minimalistic and stable than JELOS (or uOS)
 - Unless you'd like to have something tinkerable, you should go with Stock OS
+- ArkOS is considered more minimalistic and stable than JELOS (or uOS)
 - JELOS (uOS) controller config is believed to be hard; it still doesn't support sleep mode.
 
 | OS Name                                                                                                                                                                                                         | Description                                                                                                                                                                                                                          | RG35xx | RG353P/M/V/VS | RG351P/M/V/MP | RG503 | RG552        | RG505 | RG300X | RG280M/V | RG350/M/P | WIN600                        | RG-300 | RetroGame RS-97 Plus | RetroGame RS-97 |
@@ -151,7 +156,7 @@ General facts found while browsing:
 | [Android Stock](https://win.anbernic.com/download/)                                                                                                                                                             | Android Stock firmware.                                                                                                                                                                                                              | ❌      | ✅ (not VS)    | ❌             | ❌     | ✅            | ✅     | ❌      | ❌        | ❌         | ❌                             | ❌      | ❌                    | ❌               |
 | OpenDingux Stock                                                                                                                                                                                                | OpenDingux Stock Firmware.                                                                                                                                                                                                           | ❌      | ❌             | ❌             | ❌     | ❌            | ❌     | ✅      | ✅        | ✅         | ❌                             | ✅      | ✅                    | ✅               |
 |                                                                                                                                                                                                                 |                                                                                                                                                                                                                                      |        |               |               |       |              |       |        |          |           |                               |        |                      |                 |
-| [RetroFW](http://www.retrofw.com/)                                                                                                                                                                              | It allows you to play a wide variety of consoles and computers thanks to numerous emulators available to it as well as a number of popular videogame ports.                                                                          | ❌      | ❌             | ❌             | ❌     | ❌            | ❌     | ❌      | ❌        | ❌         | ❌                             | ✅      | ✅                    | ✅               |
+| [RetroFW](http://www.retrofw.com/)                                                                                                                                                                              | It allows you to play a wide variety of consoles, computers and popular videogame ports.                                                                          | ❌      | ❌             | ❌             | ❌     | ❌            | ❌     | ❌      | ❌        | ❌         | ❌                             | ✅      | ✅                    | ✅               |
 | [ArkOS](https://github.com/christianhaitian/arkos/wiki)                                                                                                                                                         | Retroarch + Emustation frontend                                                                                                                                                                                                      | ✅      | ✅             | ✅             | ✅     | ❌            | ❌     | ❌      | ❌        | ❌         | ❌                             | ❌      | ❌                    | ❌               |
 | [JELOS](https://github.com/JustEnoughLinuxOS/distribution)                                                                                                                                                      | Uncertain support for Anbernic builds. See UnofficialOS for more…                                                                                                                                                                    | ❌      | ✅             | ❌             | ✅     | ❌            | ❌     | ❌      | ❌        | ❌         | ❌                             | ❌      | ❌                    | ❌               |
 | [UnofficialOS](https://github.com/RetroGFX/UnofficialOS)                                                                                                                                                        | JELOS fork. Retroarch + Emustation frontend                                                                                                                                                                                          | ❌      | ✅             | ❌             | ✅     | ❌            | ❌     | ❌      | ❌        | ❌         | ❌                             | ❌      | ❌                    | ❌               |
@@ -167,11 +172,11 @@ General facts found while browsing:
 
 ## Frontend
 
-Here's a list of non-exhaustive frontend that you can use with your Anbernic:
+Here's a non-exhaustive list of frontends that you can use with your Anbernic:
 
 - [EmulationStation](https://github.com/Aloshi/EmulationStation): A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
 - [Android] [Launchbox](https://www.launchbox-app.com/): box-art-based games database and launcher for DOSBox, emulators, arcade cabinets, and PC Games
-- [Android] [Daijishou](https://github.com/magneticchen/Daijishou): Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
+- [Android] [Daijishou](https://github.com/magneticchen/Daijishou): Daijishō is a retro launcher that let you manage your retro games libraries. It does not come with emulators.
 - [Opendingux] [SimpleMenu](https://github.com/fgl82/simplemenu/releases):  Simple menu launcher for the new Bittboy, Pocket Go, RetroFW and OpenDingux devices
 
 ## Games and homebrew
@@ -300,7 +305,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 ## FAQ and troubleshooting
 
 - Refund policy
-  - [Ambernic, from their homepage](https://anbernic.com/pages/refund-policy):
+  - [Anbernic, from their homepage](https://anbernic.com/pages/refund-policy):
   15-Day Refund Policy - Undamaaed products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
   - Everyone else: check their policy on their website
 
@@ -308,7 +313,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
   - [Electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM) this mainly occurs while playing Pokemon Games
 
 - Saving doesn't seem to work
-  - **Replace your SD Card with a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
+  - **Replace your SD Card with one made by a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
 
 - Battery upgrade / batteries / where battery compatible with...
     1) Check the specs of the target battery match with the original one (not considering mAh)
@@ -316,7 +321,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
     3) buy
 
 - Single or dual sd card setup?
-  - As long as you just wanna play, you're fine with just one OS and don't have the need of having a lot of large games, you don't need to have a dual SD card setup. Make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
+  - In most cases a single sd card will be fine. Consider a dual sd setup if you're planning to swap OSs often or if your game collection is expectionally large. Regardless your choice, make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
 
 - Shell replacement / custom shell
   - Currently ANBERNIC **doesn't sell** separate shells for their console.
