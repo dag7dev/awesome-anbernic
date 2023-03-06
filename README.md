@@ -15,6 +15,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
     + [Naming convention](#naming-convention)
   * [Tech specs](#tech-specs)
   * [First steps](#first-steps)
+    + [Charging your console](#charging-your-console)
 - [Software](#software)
   * [OS](#os)
   * [Frontend](#frontend)
@@ -109,8 +110,21 @@ RG552 and RG505 are some of Anbernic consoles that doesn't follow in some case t
 ## First steps
 * Replace included SD card with renowned brands immediately. Included SD card are generally cheap and error-prone.
 * Verify you're using the correct charging block.
-* Flash custom firmware to have more flexibility.
+* (optional) Flash custom firmware to have more flexibility.
+* Charge your console: NEVER ever use a fast charger! **Use 5V/1A only**.
 
+### Charging your console
+Always shut it down and connect the charger.
+
+NEVER ever use a fast charger! **Use 5V/1A only**.
+
+Otherwise, you will permanently damage your battery.
+
+Also, if you have HDMI output, some users have reported that they've damaged their units while outputting on a HDMI screen and charging at the same time. 
+
+Since this is in doubt, do not attempt to do this, the best way to avoid problems is to shut off your console and connect the charger.
+
+In case you decide to both output on HDMI screen and charge at the same time, proceed at your own risk!
 
 # Software
 ## OS
@@ -273,7 +287,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 	* Everyone else: check their policy on their website
 
 * D-pad doesn't work / dpad works bad.
-	* [Youtube tutorial - electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM)
+	* [Electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM) this mainly occurs while playing Pokemon Games
 
 * Saving doesn't seem to work
 	* **Replace your SD Card with a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
@@ -288,6 +302,13 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 
 * Shell replacement / custom shell
 	* Currently ANBERNIC **doesn't sell** separate shells for their console.
+
+* Strange LED behavior / battery doesn't work
+	* either open your console, took out the batter connector for a minute or two, rensemble back and hope that everything works OR
+	* the battery is dying. You've permanently damaged your console while using a high voltage charger or something else has happened. **ALWAYS USE A 5V/1A charger!**
+
+* Change battery low icon
+	* Replace `battery_low.bmp.gz` in MISC.
 
 * [JELOS] Where gamelist.xml of custom game collections are saved in JELOS?
 	* `/storage/.emulationstation/collections/`
