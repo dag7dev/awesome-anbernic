@@ -6,7 +6,6 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 
 ![image](https://user-images.githubusercontent.com/44711271/222904234-f01fb574-a42d-4b07-b5d9-48c47ea8af28.png)
 
-
 ## Index
 - [awesome-anbernic](#awesome-anbernic)
   * [Disclaimer](#disclaimer)
