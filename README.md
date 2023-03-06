@@ -10,18 +10,22 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 ## Index
 - [awesome-anbernic](#awesome-anbernic)
   * [Disclaimer](#disclaimer)
+- [Getting Started](#getting-started)
   * [Models](#models)
     + [List of models](#list-of-models)
     + [Naming convention](#naming-convention)
   * [Tech specs](#tech-specs)
-  * [OS](#os)
   * [First steps](#first-steps)
+- [Software](#software)
+  * [OS](#os)
   * [Frontend](#frontend)
   * [Games and homebrew](#games-and-homebrew)
     + [What to play](#what-to-play)
     + [Homebrews and games](#homebrews-and-games)
-  * [Hardware mod](#hardware-mod)
   * [Tools](#tools)
+- [Hardware](#hardware)
+  * [Hardware mod](#hardware-mod)
+- [Misc](#misc)
   * [Useful links](#useful-links)
     + [[NDS] Games playable by one screen only](#nds-games-playable-by-one-screen-only)
   * [FAQ and troubleshooting](#faq-and-troubleshooting)
@@ -34,6 +38,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 
 > All links shown are provided without warranty, and we are not affiliated in any way with any products or stores.
 
+# Getting started
 ## Models
 ### List of models
 - RG350M/P
@@ -102,6 +107,13 @@ RG552 and RG505 are some of Anbernic consoles that doesn't follow in some case t
 | RetroGame RS-97 Plus | Ingenic JZ4760 (528MHz - 600MHz)                                     | \-                         | 128MB | 320 x 480   | 3-inches                 | 4:3          | OpenDingux                | 133g   | 1800mAh      |             |
 | RetroGame RS-97      | Ingenic JZ4760 (528MHz - 600MHz)                                     | \-                         | 128MB | 320 x 480   | 3-inches                 | 4:3          | OpenDingux                | 133g   | 890mAh       |             |
 
+## First steps
+* Replace included SD card with renowned brands immediately. Included SD card are generally cheap and error-prone.
+* Verify you're using the correct charging block.
+* Flash custom firmware to have more flexibility.
+
+
+# Software
 ## OS
 
 General facts found while browsing:
@@ -130,16 +142,12 @@ General facts found while browsing:
 | [RogueCFW](https://github.com/Ninoh-FOX/RG350-ROGUE-CFW)                                                                                                                                                        | Rogue CFW for RG350                                                                                                                                                                                                                  | ❌      | ❌             | ❌             | ❌     | ❌            | ❌     | ❌      | ❌        | ✅         | ❌                             | ❌      | ❌                    | ❌               |
 | \* in theory is compatible since the builds are for generic chipsets, not for a specific one. The official OS website doesn't however states "this OS is compatible with this console". It needs more research. |                                                                                                                                                                                                                                      |        |               |               |       |              |       |        |          |           |                               |        |                      |                 |
 
-## First steps
-* Replace included SD card with renowned brands immediately. Included SD card are generally cheap and error-prone.
-* Verify you're using the correct charging block.
-* Flash custom firmware to have more flexibility.
 
 ## Frontend
 Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [EmulationStation](https://github.com/Aloshi/EmulationStation): A graphical and themeable emulator front-end that allows you to access all your favorite games in one place, even without a keyboard!
-- [Android][Launchbox](https://www.launchbox-app.com/): box-art-based games database and launcher for DOSBox, emulators, arcade cabinets, and PC Games
-- [Android][Daijishou](https://github.com/magneticchen/Daijishou): Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
+- [Android] [Launchbox](https://www.launchbox-app.com/): box-art-based games database and launcher for DOSBox, emulators, arcade cabinets, and PC Games
+- [Android] [Daijishou](https://github.com/magneticchen/Daijishou): Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
 - [Opendingux] [SimpleMenu](https://github.com/fgl82/simplemenu/releases):  Simple menu launcher for the new Bittboy, Pocket Go, RetroFW and OpenDingux devices
 
 ## Games and homebrew
@@ -153,6 +161,18 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [N64Squid.com homebrew curated list](https://n64squid.com/homebrew/) a curated n64 homebrew list by n64squid
 - [Gamebrew.org](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications) collaborative wiki for nds homebrew games and ports
 
+## Tools
+-  [PortMaster](https://github.com/christianhaitian/PortMaster): A simple tool that allows you to download various game ports that are available for 351Elec/AmberElec, ArkOS, JelOS, RetroOZ, TheRA, and UnofficialOS for the RK3326 and RK3566 devices and the RG552.
+
+- [AnberPorts](https://github.com/krishenriksen/AnberPorts): AnberPorts for Anbernic RG351P/M and RG351V running ArkOS, 351elec and The RA. The project is on hold, so it is advised to use **PortMaster**.
+
+-  [ThemeMaster](https://github.com/JohnIrvine1433/ThemeMaster) An EmulationStation theme manager for small screen devices running [ArkOS](https://github.com/christianhaitian/arkos), [RetroOZ](https://github.com/southoz/RetroOZ), [TheRA](https://techtoytinker.com/theretroarena), [JELOS](https://github.com/JustEnoughLinuxOS/distribution) or [UnofficialOS](https://github.com/RetroGFX/UnofficialOS).
+
+- [Emulationstation-OGA-Theme-Gallery](https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery): Emulationstation theme gallery that links to themes that are compatible on small screen devices such as OGA, OGS, Gameforce Chi, RGB10, RGB10MAX, RK2020, RG351p/m, RG351v, and RG503.
+
+
+
+# Hardware
 ## Hardware mod
 - [Arrow fix - d-pad fix - Youtube](https://www.youtube.com/watch?v=-vl3qyifYJM)
 - [RG350] [3D Printable Anbernic RG350 abxy buttons](https://www.thingiverse.com/thing:4000064)
@@ -166,20 +186,11 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [RG353] [Custom skin overlay](https://www.etsy.com/ca/listing/1333542850/anbernic-rg353v-custom-skinoverlay)
 - [RG353] [Better shoulder buttons](https://www.etsy.com/ca/listing/1353958841/better-shoulder-buttons-for-rg353v)
 
-- Misc for ANBERNIC consoles (general sellers)
+- Misc for ANBERNIC consoles (generic sellers)
 	- [SakuraRetroModding](https://www.etsy.com/ca/shop/SakuraRetroModding)
 	- [JP Only] [Various-booth](https://various-booth.booth.pm/)
 
-## Tools
--  [PortMaster](https://github.com/christianhaitian/PortMaster): A simple tool that allows you to download various game ports that are available for 351Elec/AmberElec, ArkOS, JelOS, RetroOZ, TheRA, and UnofficialOS for the RK3326 and RK3566 devices and the RG552.
-
-- [AnberPorts](https://github.com/krishenriksen/AnberPorts): AnberPorts for Anbernic RG351P/M and RG351V running ArkOS, 351elec and The RA. The project is on hold, so it is advised to use **PortMaster**.
-
-
--  [ThemeMaster](https://github.com/JohnIrvine1433/ThemeMaster) An EmulationStation theme manager for small screen devices running [ArkOS](https://github.com/christianhaitian/arkos), [RetroOZ](https://github.com/southoz/RetroOZ), [TheRA](https://techtoytinker.com/theretroarena), [JELOS](https://github.com/JustEnoughLinuxOS/distribution) or [UnofficialOS](https://github.com/RetroGFX/UnofficialOS).
-
-- [Emulationstation-OGA-Theme-Gallery](https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery): Emulationstation theme gallery that links to themes that are compatible on small screen devices such as OGA, OGS, Gameforce Chi, RGB10, RGB10MAX, RK2020, RG351p/m, RG351v, and RG503.
-
+# Misc
 ## Useful links
 - [Retrosizer](https://retrosizer.com/) compare the size of handheld devices and see how certain systems will appear on their screens. You can drag the devices and rotate them etc. (controllers too)
 - [Google Sheet with technical specs about other consoles](https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/edit?usp=drivesdk)
