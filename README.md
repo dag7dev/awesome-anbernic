@@ -163,6 +163,12 @@ Here's a list of non-exhaustive frontend that you can use with your Anbernic:
 - [RG35xx] [Better button "BetterButtons" mod (Etsy shop)](https://www.etsy.com/listing/1398432049/better-buttons-for-rg35xx)
 - [RG353] [3D Printable Clamshell](https://www.thingiverse.com/thing:5861679)
 - [RG350] [RG351] [Grip remover](https://youtu.be/5URkOzxSaRE)
+- [RG353] [Custom skin overlay](https://www.etsy.com/ca/listing/1333542850/anbernic-rg353v-custom-skinoverlay)
+- [RG353] [Better shoulder buttons](https://www.etsy.com/ca/listing/1353958841/better-shoulder-buttons-for-rg353v)
+
+- Misc for ANBERNIC consoles (general sellers)
+	- [SakuraRetroModding](https://www.etsy.com/ca/shop/SakuraRetroModding)
+	- [JP Only] [Various-booth](https://various-booth.booth.pm/)
 
 ## Tools
 -  [PortMaster](https://github.com/christianhaitian/PortMaster): A simple tool that allows you to download various game ports that are available for 351Elec/AmberElec, ArkOS, JelOS, RetroOZ, TheRA, and UnofficialOS for the RK3326 and RK3566 devices and the RG552.
