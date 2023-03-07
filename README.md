@@ -30,7 +30,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - [Misc](#misc)
   - [Useful links](#useful-links)
     - [[NDS] Games playable by one screen only](#nds-games-playable-by-one-screen-only)
-  - [FAQ and troubleshooting](#faq-and-troubleshooting)
+- [FAQ and troubleshooting](#faq-and-troubleshooting)
 
 ## Disclaimer
 >
@@ -302,7 +302,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 - Yoshi's Island DS
 - Yugioh 5d's games
 
-## FAQ and troubleshooting
+# FAQ and troubleshooting
 
 - Refund policy
   - [Anbernic, from their homepage](https://anbernic.com/pages/refund-policy):
@@ -315,13 +315,13 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 - Saving doesn't seem to work
   - **Replace your SD Card with one made by a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
 
-- Battery upgrade / batteries / where battery compatible with...
+- Battery upgrade / batteries / battery compatible with...
     1) Check the specs of the target battery match with the original one (not considering mAh)
     2) Check their connectors
     3) buy
 
 - Single or dual sd card setup?
-  - In most cases a single sd card will be fine. Consider a dual sd setup if you're planning to swap OSs often or if your game collection is expectionally large. Regardless your choice, make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
+  - In most cases a single sd card will be fine. Consider a dual sd setup if you're planning to swap OSs often or if your game collection is exceptionally large. Regardless your choice, make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
 
 - Shell replacement / custom shell
   - Currently ANBERNIC **doesn't sell** separate shells for their console.
@@ -333,10 +333,12 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 - Change battery low icon
   - Replace `battery_low.bmp.gz` in MISC.
 
+- [353] While playing NDS games, touch screen doesn't work, what should I do? / NDS touch screen doesn't work / not working touch screen 
+  - Currently, there is no known way to solve this issue. Best thing you can do is either check out the "one screen playable" games or use Drastic NDS Emulator on Android. However there exist [unconfirmed rumors on ArkOS / JELOS](https://www.reddit.com/r/RG353V/comments/ydsa36/how_to_make_the_touch_screen_work_for_nds/itty31g/) about being able to make it working on those OSes.
+
 - [JELOS] Where gamelist.xml of custom game collections are saved in JELOS?
   - `/storage/.emulationstation/collections/`
   - Samba share path: `\config\emulationstation\collections`
 
 - [Adam CFW] [NES color palette] I was playing a game on the NES emulator and noticed I hit some button combo accidentally and it changed the color display. Any idea how to change it back to normal?
-
   - L2+dpad left/right will allow you to scroll through all the color pallete options. There are actually some really cool options here. [(source)](https://www.reddit.com/r/RG350/comments/11j7oyd/adam_image_nes_color_display/)
