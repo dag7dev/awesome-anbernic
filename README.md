@@ -121,8 +121,9 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 ## First steps
 
 - Replace included SD card with renowned brands immediately. Included SD card are generally cheap and error-prone.
-- Verify you're using the correct charging block.
+- Verify you're using the correct charging adapter.
 - (optional) Flash custom firmware to have more flexibility.
+- (optional) Try Android on supported Anbernic console. While booting the console, hold the F button. 
 - Charge your console: NEVER ever use a fast charger! **Use 5V/1A only**.
 
 ### Charging your console
@@ -228,13 +229,13 @@ Here's a non-exhaustive list of frontends that you can use with your Anbernic:
 
 - [Retrosizer](https://retrosizer.com/) compare the size of handheld devices and see how certain systems will appear on their screens. You can drag the devices and rotate them etc. (controllers too)
 - [Google Sheet with technical specs about other consoles](https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/edit?usp=drivesdk)
-- [SNES Fastrom patches](https://docs.google.com/spreadsheets/d/1gUB4N0-tM7Ln-9ZMwkp_T7bwb4tDAMI6ciioYMxXzSk/edit#gid=0) - [more info on FastROM project](https://github.com/VitorVilela7/fastrom)
-- [Repo of PSP settings for XX3 devices](https://gitlab.com/k-tec/rk3566-ppsspp-settings)
-- [Improved PSP emulation on supported Anbernic devices](https://www.reddit.com/r/RG353V/comments/1106acz/comment/j88op01/?utm_source=share&utm_medium=web2x&context=3)
 - [Connect an external device by OTG](https://retrogamecorps.com/2020/08/29/guide-external-gamepad-support-for-the-rg350/)
-- [RG353V] [Reddit Megathread about CFW (ArkOS, JELOS)](https://www.reddit.com/r/RG353V/comments/y6p2bj/firmware_megathread_arkos_jelos_stock_firmware/)
+- [PSP Settings for XX3 devices](https://gitlab.com/k-tec/rk3566-ppsspp-settings)
+- [PSP Improved emulation on supported Anbernic devices](https://www.reddit.com/r/RG353V/comments/1106acz/comment/j88op01/?utm_source=share&utm_medium=web2x&context=3)
+- [SNES Fastrom patches](https://docs.google.com/spreadsheets/d/1gUB4N0-tM7Ln-9ZMwkp_T7bwb4tDAMI6ciioYMxXzSk/edit#gid=0) - [more info on FastROM project](https://github.com/VitorVilela7/fastrom)
+- [RG353] [Reddit Megathread about CFW (ArkOS, JELOS)](https://www.reddit.com/r/RG353V/comments/y6p2bj/firmware_megathread_arkos_jelos_stock_firmware/)
 - [RG351P] [RG351P PPSSPP Settings and Compatibility List](https://github.com/jserodio/rg351p-ppsspp-settings)
-- [RG553] [RG552 Fix rewind, retroarch overrides, button numbers](https://gist.github.com/maddox/fca7fa3f00265eb15d23ed4556e4c78e)
+- [RG552] [RG552 Fix rewind, retroarch overrides, button numbers](https://gist.github.com/maddox/fca7fa3f00265eb15d23ed4556e4c78e)
 - [RG350] [HDMI Output Patch for old console](https://retrogamecorps.com/2020/08/18/rg350-hdmi/)
 
 ### NDS Games playable by one screen only
@@ -304,31 +305,39 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 
 # FAQ and troubleshooting
 
-- Refund policy
-  - [Anbernic, from their homepage](https://anbernic.com/pages/refund-policy):
-  15-Day Refund Policy - Undamaaed products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
-  - Everyone else: check their policy on their website
+- Android boot / How to Boot Android on supported models.
+  - Using stock: power off your console (Start > Power off). Hold F button and power on until you see Anbernic logo.
+  - Using another OS: pop out your SDs.
+
+- Single or dual sd card setup?
+  - In most cases a single sd card will be fine. Consider a dual sd setup if you're planning to swap OSs often or if your game collection is exceptionally large. Regardless your choice, make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
 
 - D-pad doesn't work / dpad works bad.
-  - [Electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM) this mainly occurs while playing Pokemon Games
+  - [Electrical tape mod](https://www.youtube.com/watch?v=-vl3qyifYJM) this mainly occurs while playing Pokemon games.
 
-- Saving doesn't seem to work
+- Strange LED behavior / battery doesn't work
+  - either open your console, took out the batter connector for a minute or two, rensemble back and hope that everything works OR
+  - the battery is dying. You've permanently damaged your console while using a high voltage charger or something else has happened. **ALWAYS USE A 5V/1A charger!**
+
+- Saving doesn't seem to work / saves don't work
   - **Replace your SD Card with one made by a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
 
 - Battery upgrade / batteries / battery compatible with...
     1) Check the specs of the target battery match with the original one (not considering mAh)
     2) Check their connectors
-    3) buy
-
-- Single or dual sd card setup?
-  - In most cases a single sd card will be fine. Consider a dual sd setup if you're planning to swap OSs often or if your game collection is exceptionally large. Regardless your choice, make note that you will need to invest in a decent SD Card to prevent data loss or unintended behaviors.
+    3) Buy
+    4) Don't waste your money on too cheap batteries with too high mAh. Such batteries has fake capacity and last very little.
 
 - Shell replacement / custom shell
   - Currently ANBERNIC **doesn't sell** separate shells for their console.
 
-- Strange LED behavior / battery doesn't work
-  - either open your console, took out the batter connector for a minute or two, rensemble back and hope that everything works OR
-  - the battery is dying. You've permanently damaged your console while using a high voltage charger or something else has happened. **ALWAYS USE A 5V/1A charger!**
+- Display replacement
+  - Speaking in general, ANBERNIC **doesn't sell** separate displays. 
+
+- Refund policy
+  - [Anbernic, from their homepage](https://anbernic.com/pages/refund-policy):
+  15-Day Refund Policy - Undamaaed products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
+  - Everyone else: check their policy on their website
 
 - Change battery low icon
   - Replace `battery_low.bmp.gz` in MISC.
