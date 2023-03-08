@@ -124,7 +124,8 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 - Verify you're using the correct charging adapter.
 - (optional) Flash custom firmware to have more flexibility.
 - (optional) Try Android on supported Anbernic console. While booting the console, hold the F button. 
-- Charge your console: NEVER ever use a fast charger! **Use 5V/1A only**.
+- Charge your console: NEVER ever use a fast charger! **Use 5V/1A to be safe**.
+- 5V/1.5A on some console may be supported (if yes it is written on the sticker behind your console), however it is not recommended.
 
 ### Charging your console
 
@@ -136,7 +137,9 @@ Otherwise, you will permanently damage your battery.
 
 Also, if you have HDMI output, some users have reported that they've damaged their units while outputting on a HDMI screen and charging at the same time.
 
-Since this is in doubt, do not attempt to do this, the best way to avoid problems is to shut off your console and connect the charger.
+Since this is in doubt, do not attempt to do this.
+
+In any case, the best way to avoid problems is to shut off your console and connect the charger.
 
 In case you decide to both output on HDMI screen and charge at the same time, proceed at your own risk!
 
@@ -322,6 +325,9 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 - Saving doesn't seem to work / saves don't work
   - **Replace your SD Card with one made by a reputable brand**. Best ones: Samsung, Sandisk, Lexar, Kingston, Transcend.
 
+- No audio / audio doesn't work / stock os audio issue
+  - Assuming that you haven't permanently damaged your console, make sure that audio output option is 'auto' (or desired one).
+
 - Battery upgrade / batteries / battery compatible with...
     1) Check the specs of the target battery match with the original one (not considering mAh)
     2) Check their connectors
@@ -341,6 +347,10 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 
 - Change battery low icon
   - Replace `battery_low.bmp.gz` in MISC.
+
+- Retroachievements don't work
+  - Make sure to be online. If doing wireless hotspot from your phone, make sure you have the required connection.
+  - They're not available offline. There is no known way to fix this.
 
 - [353] While playing NDS games, touch screen doesn't work, what should I do? / NDS touch screen doesn't work / not working touch screen 
   - Currently, there is no known way to solve this issue. Best thing you can do is either check out the "one screen playable" games or use Drastic NDS Emulator on Android. However there exist [unconfirmed rumors on ArkOS / JELOS](https://www.reddit.com/r/RG353V/comments/ydsa36/how_to_make_the_touch_screen_work_for_nds/itty31g/) about being able to make it working on those OSes.
