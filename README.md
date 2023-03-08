@@ -18,6 +18,8 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
   - [Tech specs](#tech-specs)
   - [First steps](#first-steps)
     - [Charging your console](#charging-your-console)
+    - [FTP File Transfer with Stock firmware](#ftp-file-transfer-with-stock-firmware)
+     
 - [Software](#software)
   - [OS](#os)
   - [Frontend](#frontend)
@@ -125,7 +127,7 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 - (optional) Flash custom firmware to have more flexibility.
 - (optional) Try Android on supported Anbernic console. While booting the console, hold the F button. 
 - Charge your console: NEVER ever use a fast charger! **Use 5V/1A to be safe**.
-- 5V/1.5A on some console may be supported (if yes it is written on the sticker behind your console), however it is not recommended.
+- 5V/1.5A on some console may be supported. This information is usually written on a sticker behind your console. Although officially supported, some people encountered troubles while not using 5V/1.5A. We strongly don't recommended using an adapter different 5V/1A.
 
 ### Charging your console
 
@@ -142,6 +144,26 @@ Since this is in doubt, do not attempt to do this.
 In any case, the best way to avoid problems is to shut off your console and connect the charger.
 
 In case you decide to both output on HDMI screen and charge at the same time, proceed at your own risk!
+
+### FTP File Transfer with Stock firmware
+
+In case you kept the stock linux firmware and your device is WIFI-Capable, FTP could be a good option for transferring files from your computer to your console.
+
+1. Connect your device to WIFI: Start > Network Settings > Enable WIFI > Input all data on your Internet access point
+
+2. Make note of your IP Address (from here onwards called Anbernic IP)
+
+3. Download [FileZilla](https://filezilla-project.org/) or any other ftp client that supports SFTP, and establish a new connection using SFTP.
+
+Parameters:
+- Host: Anbernic IP
+- User: root
+- Password: linux
+- Port (if needed): 22
+
+4. Roms files should be placed under `/userdata/roms` folder.
+
+NOTE: your running ftp client machine and your Anbernic console MUST be connected at the same WIFI.
 
 # Software
 
