@@ -18,7 +18,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
   - [Tech specs](#tech-specs)
   - [First steps](#first-steps)
     - [Charging your console](#charging-your-console)
-    - [FTP File Transfer with Stock firmware](#ftp-file-transfer-with-stock-firmware)
+    - [FTP File Transfer](#ftp-file-transfer)
      
 - [Software](#software)
   - [OS](#os)
