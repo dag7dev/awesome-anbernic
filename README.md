@@ -145,9 +145,13 @@ In any case, the best way to avoid problems is to shut off your console and conn
 
 In case you decide to both output on HDMI screen and charge at the same time, proceed at your own risk!
 
-### FTP File Transfer with Stock firmware
+### FTP File Transfer
 
 In case you kept the stock linux firmware and your device is WIFI-Capable, FTP could be a good option for transferring files from your computer to your console.
+
+This can also be achieved with other OS, but every OS has its own settings.
+
+Using Stock OS:
 
 1. Connect your device to WIFI: Start > Network Settings > Enable WIFI > Input all data on your Internet access point
 
@@ -155,15 +159,22 @@ In case you kept the stock linux firmware and your device is WIFI-Capable, FTP c
 
 3. Download [FileZilla](https://filezilla-project.org/) or any other ftp client that supports SFTP, and establish a new connection using SFTP.
 
-Parameters:
-- Host: Anbernic IP
-- User: root
-- Password: linux
-- Port (if needed): 22
+4. Roms files could be placed under `/userdata/roms` folder or `/roms/` folder, depending on your SD.
 
-4. Roms files should be placed under `/userdata/roms` folder.
+#### Connection parameters
 
-NOTE: your running ftp client machine and your Anbernic console MUST be connected at the same WIFI.
+| OS            | Host        | User   | Pass    | Port |
+| ------------- | ----------- | ------ | ------- | ---- |
+| 351ELEC       | Anbernic IP | root   | 351elec | 22   |
+| ArkOS         | Anbernic IP | ark    | ark     | 22   |
+| Batocera      | Anbernic IP | root   | linux   | 22   |
+| Stock         | Anbernic IP | root   | linux   | 22   |
+| TheRetroArena | Anbernic IP | odroid | odroid  | 22   |
+
+
+- NOTE: your running ftp client machine and your Anbernic console MUST be connected at the same WIFI.
+- NOTE2: by default, Stock OS enable SFTP if connected. If it isn't your case, just edit anbernic.conf file in your primary SD.
+- NOTE3: SFTP server option may be disabled on other OSes. Make sure to enable it first!
 
 # Software
 
@@ -308,7 +319,8 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 - Phoenix Wright series
 - Pokemon Mystery Dungeon Serie
 - Radiant Historia
-- Rhythm Heaven (using [button patch](https://www.romhacking.net/hacks/4824/))
+- Rhythm Heaven (using [button patch](https://www.romhacking.net/hacks/4824/).
+  - note: touch screen is **still required** but this patch helps in playing it in a somewhat confortable way. This is the only exception to this list.
 - Rune Factory 3
 - Sands of Destruction
 - Shin Megami Tensei: Devil Survivor / Devil Survivor 2
