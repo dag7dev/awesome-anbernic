@@ -52,7 +52,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - RG552
 - RG503
 - RG505
-- RG353P/V/VS
+- RG353M/P/V/VS
 - RG35xx
 - WIN600
 
