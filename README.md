@@ -170,6 +170,7 @@ Using Stock OS:
 | Batocera      | Anbernic IP | root   | linux   | 22   |
 | Stock         | Anbernic IP | root   | linux   | 22   |
 | TheRetroArena | Anbernic IP | odroid | odroid  | 22   |
+| uOS/JELOS     | Anbernic IP | root   | freshly generated for each installation, see system info | 22  |
 
 
 - NOTE: your running ftp client machine and your Anbernic console MUST be connected at the same WIFI.
@@ -184,8 +185,8 @@ General facts found while browsing:
 
 - Nintendo DS and Nintendo 64 emulation works best on Android.
 - Unless you'd like to have something tinkerable, you should go with Stock OS
-- ArkOS is considered more minimalistic and stable than JELOS (or uOS)
-- JELOS (uOS) controller config is believed to be hard; it still doesn't support sleep mode.
+- The main difference between uOS/JELOS and ArkOS: the first ones uses EmulationStation for configs and settings, Ark uses RetroArch
+
 
 | OS Name                                                                                                                                                                                                         | Description                                                                                                                                                                                                                          | RG35xx | RG353P/M/V/VS | RG351P/M/V/MP | RG503 | RG552        | RG505 | RG300X | RG280M/V | RG350/M/P | WIN600                        | RG-300 | RetroGame RS-97 Plus | RetroGame RS-97 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------- | ------------- | ----- | ------------ | ----- | ------ | -------- | --------- | ----------------------------- | ------ | -------------------- | --------------- |
