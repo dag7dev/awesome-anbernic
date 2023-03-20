@@ -37,7 +37,9 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 ## Disclaimer
 >
 > We are not responsible for general hardware malfunctions, software, data loss, or anything else that may harm you or your devices
+>
 > All software and hardware modifications are at your own risk
+>
 > All links shown are provided without warranty, and we are not affiliated in any way with any products or stores.
 
 # Getting started
@@ -52,8 +54,8 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - RG552
 - RG503
 - RG505
-- RG353M/P/V/VS
 - RG35xx
+- RG353M/P/V/VS
 - WIN600
 
 No longer sold (hard to find):
@@ -139,7 +141,7 @@ Otherwise, you will permanently damage your battery.
 
 Also, if you have HDMI output, some users have reported that they've damaged their units while outputting on a HDMI screen and charging at the same time.
 
-Since this is in doubt, do not attempt to do this.
+Since it is uncertain wether to charge and use HDMI output at the same time or not, do not attempt to do this.
 
 In any case, the best way to avoid problems is to shut off your console and connect the charger.
 
@@ -147,7 +149,7 @@ In case you decide to both output on HDMI screen and charge at the same time, pr
 
 ### FTP File Transfer
 
-In case you kept the stock linux firmware and your device is WIFI-Capable, FTP could be a good option for transferring files from your computer to your console.
+If you kept the stock linux firmware and your device is WIFI-Capable, FTP could be a good option for transferring files from your computer to your console.
 
 This can also be achieved with other OS, but every OS has its own settings.
 
