@@ -48,9 +48,11 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 
 ### List of models
 - RG ARC-D
-- RG350M/P
+- RG ARC-S
 - RG280M/V
+- RG350M/P
 - RG351P/M/V/MP
+- RG405M/V
 - RG552
 - RG503
 - RG505
@@ -111,6 +113,8 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 | RG353VS              | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 1GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux                     | 193g   | 3200mAh      | $109        |
 | RG35xx               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | PowerVR SGX544MP quad-core | 256MB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 165g   | 2100mAh      | $89.99      |
 | WIN600               | AMD Athlon Silver 3020e (1.2Ghz) or AMD Athlon Silver 3050e (1.4Ghz) | AMD Radeon RX Vega 3       | 8GB   | 1280 x 720  | 5.94-inches (touch)      | 16:9         | Win10 - SteamOS - Linux | 490g   | 4500mAh \* 2 | $300 - $475 |
+| RG405M                | Unisoc Tiger T618                                                    | Mali-G52 MP2               | 4GB   | 960 x 544   | 4.95-inches (OLED) Touch | 16:9         | Android 12                | 286g   | 5000mAh      | $157.99     |
+| RG405V                | Unisoc Tiger T618                                                    | Mali-G52 MP2               | 4GB   | 960 x 544   | 4.95-inches (OLED) Touch | 16:9         | Android 12                | 286g   | 5000mAh      | $157.99     |
 | RG ARC-D               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 2GB   | 640 x 480   | 4-inches               | 4:3          | Linux & Android 11        | 193g   | 3200mAh      | $89.99        |
 | RG ARC-S             | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 1GB   | 640 x 480   | 4-inches               | 4:3          | Linux                     | 193g   | 3200mAh      | $84.99       |
 
