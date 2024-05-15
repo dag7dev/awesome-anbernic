@@ -134,22 +134,20 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 - Verify you're using the correct charging adapter.
 - (optional) Flash custom firmware to have more flexibility.
 - (optional) Try Android on supported Anbernic console. While booting the console, hold the F button. 
-- Charge your console: NEVER ever use a fast charger! **Use 5V/1A to be safe**.
-- 5V/1.5A on some console may be supported. This information is usually written on a sticker behind your console. Although officially supported, some people encountered troubles while not using 5V/1.5A. We strongly don't recommended using an adapter different 5V/1A.
+- Charge your console: using a fast charger is highly discouraged, although supported. 
+- 5V/1.5A on some console may be supported: this information is usually written on a sticker behind your console. Although officially supported, we strongly discourage using an adapter different than 5V/1A.
 
 ### Charging your console
 
 Always shut it down and connect the charger.
 
-NEVER ever use a fast charger! **Use 5V/1A only**.
+Charge your console: using a fast charger higher than 1.5V/1A is highly discouraged, although supported on some consoles. **Check your device before charging it**, otherwise you will permanently damage your battery.
 
-Otherwise, you will permanently damage your battery.
+### HDMI Output
 
-Also, if you have HDMI output, some users have reported that they've damaged their units while outputting on a HDMI screen and charging at the same time.
+If you try to output your screen through the HDMI, some users have reported that they've damaged their units while outputting on a HDMI screen and charging at the same time.
 
 Since it is uncertain wether to charge and use HDMI output at the same time or not, do not attempt to do this.
-
-In any case, the best way to avoid problems is to shut off your console and connect the charger.
 
 In case you decide to both output on HDMI screen and charge at the same time, proceed at your own risk!
 
@@ -401,7 +399,7 @@ Titles have been aggregated from these links: [link1](https://www.reddit.com/r/E
 
 - Refund policy
   - [Anbernic, from their homepage](https://anbernic.com/pages/refund-policy):
-  15-Day Refund Policy - Undamaaed products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
+  15-Day Refund Policy - Undamaged products can be refunded within 15 days after the delivery date(applicable only in selected destination countries).Once the item is returned to Anbernic warehouse for inspection，the refund process will begin in 3 working days. Refunds will be credited within 5-10 working days. - JP EU and US.
   - Everyone else: check their policy on their website
 
 - Change battery low icon
