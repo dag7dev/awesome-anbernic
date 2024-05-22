@@ -59,6 +59,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - RG35xx
 - RG353M/P/PS/V/VS
 - WIN600
+- RG28XX
 
 No longer sold (hard to find):
 
