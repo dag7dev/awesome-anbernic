@@ -56,10 +56,12 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - RG552
 - RG503
 - RG505
-- RG35xx / new RG35XX 2024
+- RG556
+- RG35xxH/Plus/SP/New RG35XX 2024 
 - RG353M/P/PS/V/VS
 - WIN600
 - RG28XX
+- RG NANO
 
 No longer sold (hard to find):
 
