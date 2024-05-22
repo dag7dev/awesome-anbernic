@@ -56,7 +56,7 @@ Awesome list for Anbernic consoles, mainly focused on OSes.
 - RG552
 - RG503
 - RG505
-- RG35xx
+- RG35xx / new RG35XX 2024
 - RG353M/P/PS/V/VS
 - WIN600
 - RG28XX
@@ -107,18 +107,24 @@ RG552 and RG505 are some of Anbernic consoles that don't follow in some case the
 | RG552                | Rockchip RK3399 (1.8GHz, hexa-core)                                  | Mali T860 GPU              | 4GB   | 1920 x 1152 | 5.3-inches               | 5:3          | Android 7.1               | 367g   | 6400mAh      | $230        |
 | RG503                | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Arm Mali-G52               | 1GB   | 960 x 544   | 4.95-inches (OLED)       | 16:9         | Linux                     | 235g   | 3500mAh      |             |
 | RG505                | Unisoc Tiger T618                                                    | Mali-G52 MP2               | 4GB   | 960 x 544   | 4.95-inches (OLED) Touch | 16:9         | Android 12                | 286g   | 5000mAh      | $157.99     |
+| RG556                | Unisoc Tiger T820                                                    | Mali-G57 MP4               | 8GB   | 1920 x 1080   | 5.48-inches (OLED) Touch | 16:9         | Android 13                | 331g   | 5500mAh      | $185.99     |
 | RG353M               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 2GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux & Android 11        | 232g   | 3500mAh      |             |
 | RG353P               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 2GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux & Android 11        | 209g   | 3500mAh      |             |
 | RG353PS              | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 1GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux                     | 209g   | 3500mAh      |             |
 | RG353V               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 2GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux & Android 11        | 193g   | 3200mAh      | $132        |
 | RG353VS              | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 1GB   | 640 x 480   | 3.5-inches               | 4:3          | Linux                     | 193g   | 3200mAh      | $109        |
-| RG35xx               | Rockchip RK3566 (1.8GHz, hexa-core)                                  | PowerVR SGX544MP quad-core | 256MB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 165g   | 2100mAh      | $89.99      |
+| RG35xx               | Actions Semiconductor ATM7039S (1.6Ghz, quad-core)   | PowerVR SGX544MP quad-core | 256MB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 175g   | 2100mAh      | $89.99      |
+| RG35xx   2024      | Allwinner H700 (1.5Ghz, quad-core) | Mali-G31 MP2 | 1GB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 175g   | 2600mAh      | $59.99      |
+| RG35xx  H     | Allwinner H700 (1.5Ghz, quad-core) | Mali-G31 MP2 | 1GB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 180g   | 3300mAh      | $59.99      |
+| RG35xx   Plus      | Allwinner H700 (1.5Ghz, quad-core) | Mali-G31 MP2 | 1GB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 186g   | 3300mAh      | $64.99      |
+| RG35xx   SP      | Allwinner H700 (1.5Ghz, quad-core) | Mali-G31 MP2 | 1GB | 640 x 480   | 3.5-inches (IPS)         | 4:3          | Linux                     | 197g   | 3300mAh      | $64.99      |
 | WIN600               | AMD Athlon Silver 3020e (1.2Ghz) or AMD Athlon Silver 3050e (1.4Ghz) | AMD Radeon RX Vega 3       | 8GB   | 1280 x 720  | 5.94-inches (touch)      | 16:9         | Win10 - SteamOS - Linux   | 490g   | 4500mAh \* 2 | $300 - $475 |
 | RG405M               | Unisoc Tiger T618                                                    | Mali-G52 MP2               | 4GB   | 960 x 544   | 4.95-inches (OLED) Touch | 16:9         | Android 12                | 286g   | 5000mAh      | $157.99     |
 | RG405V               | Unisoc Tiger T618                                                    | Mali-G52 MP2               | 4GB   | 960 x 544   | 4.95-inches (OLED) Touch | 16:9         | Android 12                | 286g   | 5000mAh      | $157.99     |
 | RG ARC-D             | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 2GB   | 640 x 480   | 4-inches                 | 4:3          | Linux & Android 11        | 193g   | 3200mAh      | $89.99      |
 | RG ARC-S             | Rockchip RK3566 (1.8GHz, hexa-core)                                  | Mali-G52 MP2               | 1GB   | 640 x 480   | 4-inches                 | 4:3          | Linux                     | 193g   | 3200mAh      | $84.99      |
 | RG28XX               | ARM Cortex-A53 (1.5GHz, quad-core)                                   | Mali-G31 MP2               | 1GB   | 640 x 480   | 2.83-inches              | 4:3          | Linux                     | 125g   | 3100mAh      | $47.99      |
+| RG-NANO              | Allwinner V3s | Mali-G31 MP2               | 64MB   | 240 x 240   | 1.54-inches              | 1:1          | OpenDingux                     | 75g   | 1050mAh      | $47.99      |
 
 **Historical purpose**
 
